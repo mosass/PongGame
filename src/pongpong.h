@@ -1,3 +1,12 @@
+/*
+********************************************* 
+*
+* Program : pongpong V1 (header)
+* Author: Phanomphon Yotchon (TheMosass)
+*
+********************************************* 
+*/
+
 #include <16F877A.h>
 #device adc=8
 
@@ -13,4 +22,17 @@
 #FUSES RESERVED                 //Used to set the reserved FUSE bits
 
 #use delay(clock=20000000)
+
+//Defind PIN
+#define LEFT_BTN PIN_B0
+#define MODE_BTN PIN_B1
+#define START_BTN PIN_B2
+#define RIGHT_BTN PIN_B4
+
+#define game_mode_0 0b00000001
+#define game_mode_1 0b00000010
+#define game_mode_2 0b00000100
+#define game_mode_3 0b00001000
+#define game_mode_4 0b00010000
+
 

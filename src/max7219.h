@@ -23,7 +23,7 @@
 #define firstBites 0x0
 
 // Wait function 
-#define wait delay_ms(1)
+#define wait delay_us(200)
 
 int16 serialData=0; 
 

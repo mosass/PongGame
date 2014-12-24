@@ -10,7 +10,7 @@
 #include "pongpong.h"
 #include "max7219.h"
 
-#define wait_ms delay_ms(170) //game speed
+#define wait_ms delay_ms(100) //game speed
 #define PAUSE 0
 #define START 1
 
